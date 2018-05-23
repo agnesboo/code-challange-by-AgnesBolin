@@ -4,6 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 150px;
+  background-color: #DCF7FA;
 }
 
 h1 {
@@ -29,10 +30,18 @@ input {
   margin-top: 10px;
 }
 
-.login {
+.loginSection {
   margin-top: 10px;
 }
 
 button {
   background-color: #4285F4;
+  border: none;
+  padding: 12px 20px;
+  font-size: 12px;
+  font-family: "Verdana";
+}
+
+button:hover{
+  background-color: #07689F;
 }
